@@ -13,5 +13,6 @@ class BankAccount {
 
     public void setPassword(String pwd) {
         password = pwd;
+        System.out.println(password);
     }
 }
