@@ -1,4 +1,4 @@
-public class ShallowConst {
+public class ShallowCopy {
   public static void main(String[] args) {
     Student s1 = new Student("Chandana", 123, 25);
     Student s2 = new Student(s1); // shallow copy
