@@ -1,5 +1,5 @@
 public class SRSearch2 {
-    public static int SRSearch2(int arr[], int target) {
+    public static int srSearch2(int arr[], int target) {
         int low = 0;
         int high = arr.length - 1;
         while (low <= high) {
@@ -30,7 +30,7 @@ public class SRSearch2 {
 
     public static void main(String[] args) {
         int arr[] = { 3, 3, 1, 2, 3, 3, 3, 3, 3 };
-        int index = SRSearch2(arr, 1);
+        int index = srSearch2(arr, 1);
         if (index == -1) {
             System.out.println("Target not found");
         } else {
